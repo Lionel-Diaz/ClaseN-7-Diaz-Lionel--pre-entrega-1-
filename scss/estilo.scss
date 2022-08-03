@@ -1,0 +1,208 @@
+/* variables bootstrap */
+$info:#009092;
+$dark:#00ffff;
+$primary:#00000000;
+$card-color:#009092 ;
+$card-border-width:rgba(0, 0, 0, 0);
+
+
+/* importaciones */
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Frijole&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+
+
+/* Variables */
+$color_1:#009092;
+$color_2:#00c6c7;
+$color_3:#00ffff;
+$color_4:#8bffff;
+$color_5:#000000;
+
+
+/* funetes de letras */
+.letra-1{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $color_4;
+    font-size: 23px;
+}
+.letra-2{
+    font-family: 'roboto', sans-serif;
+    color: $color_4;    
+}
+.letra-3{
+    font-family: 'Alfa Slab One', cursive;
+    color: $color_4;    
+
+}
+.letra-4{
+    font-family: 'Frijole', cursive;
+    color: $color_4;    
+}
+
+
+/* valores generales */
+.subtitulo{
+    @extend.letra-2;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+/* header */
+header{
+    background-color: $color_1;
+}
+
+
+/* Barra de venavegacion*/
+.barra-navegacion{
+    background-color: $color_1;
+}
+.logo{
+    height: 40px;
+    width: 100px;
+}
+
+
+/* Pie de pagina */
+.footer{
+    background-color: $color_1;
+}
+.titulo--footer{
+    font-size: 50px;
+}
+.letra--footer{
+    font-size: 35px;
+}
+.link--footer{
+    text-decoration: none; 
+}
+
+
+/* --------------------- index / inicio ---------------------*/
+/* Carrusel */
+.img-carrusel{
+    width: 100%;
+    max-height: 550px;
+}
+.carrusel--letra__titulo{
+    @extend.letra-4;
+    font-size: 40px;
+}
+.carrusel--letra__subtitulo{
+    @extend.letra-2;
+    font-size: 17px;
+}
+
+
+/* Seccion 1 */
+body{
+    background-color: $color_2;
+}
+
+
+/* cartas */
+.fondo--carta__1{
+    width: 365px;
+    background-image: url(../multimedia/fondo-ondulado-1.png);
+    background-position: center;
+    background-size: 400px;
+    background-size: cover;
+}
+.fondo--carta__2{
+    width: 365px;
+    background-image: url(../multimedia/fondo-ondulado-1.png);
+    background-position: center;
+    background-size: 400px;
+    background-size: cover;
+}
+.img--carta__1{
+    width: 300px;
+    height: 230px;
+    margin-top: 45px;
+    margin-right: 20px;
+
+}
+.img--carta__2{
+    width: 300px;
+    height: 230px;
+    margin-top: 65px;
+
+}
+.cart--titulo{
+    color: #009092;
+    text-decoration: none;
+    font-style: normal;
+    margin-bottom: 25px;
+
+}
+
+
+/* Seccion 2 */
+.foto--seguros{
+    width: 80px;
+    height: 80px;
+
+}
+
+
+/* Seccion 4 */
+.img-testimonio{
+    width: 280px;
+    height: 330px;
+    border-radius: 5px;
+    border: $color_3 50px;
+}
+/* --------------------- index / Final ---------------------*/
+
+
+/* --------------------- Contactanos / inicio ---------------------*/
+.submit--margen{
+    margin-bottom: 20px;
+}
+
+.fondo--somos{
+    width: 100%;
+    background-color: $color_1;
+}
+/* --------------------- Contactanos / Final ---------------------*/
+
+
+/* --------------------- proteicas - energeticas / inicio ---------------------*/
+.carta--grande{
+    width: 368px;
+    height: 395px;
+}
+img--carta__grande{
+    width: 360px;
+    height: 330px;
+}
+.img-barritas-un{
+    width: 360px;
+    height: 330px;
+}
+.carta{
+    width: 368px;
+    height: 395px;
+}
+/* --------------------- proteicas - energeticas / Final ---------------------*/
+
+
+/* --------------------- ¿Quienes somos? / inicio ---------------------*/
+.preparacion{
+    border-radius: 10px;
+
+}
+/* --------------------- ¿Quines somos? / Final ---------------------*/
+
+/* --------------------- Scroll / inico ---------------------*/
+.contenedor::-webkit-scrollbar{
+    width: 7px;
+}
+.contenedor::-webkit-scrollbar-thumb{
+    background-color: $color_1;
+    border-radius: 5px;
+}
+/* --------------------- Scroll / Final ---------------------*/
+
+
